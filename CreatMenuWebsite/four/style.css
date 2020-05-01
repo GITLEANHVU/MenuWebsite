@@ -5,7 +5,7 @@
 nav {
   /* background: black; */
   height: 100%;
-  width: 15%;
+  width: 260px;
   float: left;
 }
 ul.menu>li {
@@ -47,5 +47,6 @@ ul.sub-menu>li:hover {
   background: green;
 }
 main {
-  padding: 0 20px;
+margin: 0;
+padding: 0;
 }
