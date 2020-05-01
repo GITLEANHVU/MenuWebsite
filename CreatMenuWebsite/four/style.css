@@ -1,0 +1,51 @@
+*::after, *::before, * {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  /* background: black; */
+  height: 100%;
+  width: 15%;
+  float: left;
+}
+ul.menu>li {
+  margin: 0;
+  list-style: none;
+  padding: 20px;
+  width: 220px;
+  background: darkblue;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+}
+ul.menu>li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+ul.menu li:hover {
+  cursor: pointer;
+  background: rgb(185, 28, 28);
+}
+ul.sub-menu>li {
+  margin: 0;
+  padding: 20px;
+  width: 200px;
+  list-style: none;
+  background: rgb(185, 28, 28);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+  display: none;
+}
+.sub-menu {
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+.hover--submenu:hover>ul.sub-menu>li {
+  display: block;
+}
+ul.sub-menu>li:hover {
+  background: green;
+}
+main {
+  padding: 0 20px;
+}
