@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>five : Creating menu</title>
+  <link rel="stylesheet" href="public/css/style/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- 
+    // block__element
+    stick-man__head
+    stick-man__arms
+    stick-man__feet
+
+    // block--modified
+    stick-man--blue
+    stick-main--red
+
+    // block__element--modified
+    stick-main__head--big
+    stick-main__head--small
+   -->
+  <header id="header--top">
+    <div id="logo--top">
+      <p>LeeAnhVux</p>
+    </div>
+    <div class="label__btn--hidden">
+
+    </div>
+    <label class="label__btn" for="header__icon--top">
+      <img src="public/css/fonts/bars-solid.svg" width="30px" height="30px" />
+    </label>
+    <input id="header__icon--top" type="checkbox" style="display: none;" />
+    <nav id="nav--top">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Project</a></li>
+        <!-- <li><a href="#">About</a></li> -->
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="header__content--top">
+      <h1>Welcome To My Website</h1>
+    </div>
+  </header>
+  <!-- multi -->
+  <main id="main">
+    <section class="images">
+      <div class="images--sky">
+        <header class="section-header__sky-images">
+          <h3>Sky Images</h3>
+        </header>
+        <figure>
+          <img src="public/images/skys/sky0.jpg" />
+          <img src="public/images/skys/sky1.jpg" />
+          <img src="public/images/skys/sky2.jpg" />
+          <img src="public/images/skys/sky5.jpg" />
+        </figure>
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer">
+    <div id="footer__nav">
+      <h2>Fllow me:</h2>
+      <ul>
+        <li class="footer__icon--white">
+          <a href="#github">
+            <span class="fa-stack fa-lg">
+              <i style="color: rgb(214, 214, 214);" class="fa fa-circle-thin fa-stack-2x"></i>
+              <i style="color: rgb(16, 187, 218);" class="fa fa-github fa-stack-1x"></i>
+            </span>
+          </a>
+        </li>
+        <li class="footer__icon--white">
+          <a href="#facebook">
+            <span class="fa-stack fa-lg">
+              <i style="color: rgb(214, 214, 214);" class="fa fa-circle-thin fa-stack-2x"></i>
+              <i style="color: rgb(16, 187, 218);" class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+          </a>
+        </li>
+        <li class="footer__icon--white">
+          <a href="#twitter">
+            <span class="fa-stack fa-lg">
+              <i style="color: rgb(214, 214, 214);" class="fa fa-circle-thin fa-stack-2x"></i>
+              <i style="color: rgb(16, 187, 218);" class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+          </a>
+        </li>
+        <li class="footer__icon--white">
+          <a href="#instagram">
+            <span class="fa-stack fa-lg">
+              <i style="color: rgb(214, 214, 214);" class="fa fa-circle-thin fa-stack-2x"></i>
+              <i style="color: rgb(16, 187, 218);" class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="address">
+      <address>LeeAnhVux<br />
+        Email: <a href="mailto:leanhvu5503@gmamil.com">leanhvu5503@gmail.com</a><br />
+        Địa chỉ: Hồ Chí Minh city.<br />
+        Điện thoại: 0989889087
+      </address>
+    </div>
+    <div id="copyright">
+
+    </div>
+  </footer>
+</body>
+
+</html>
