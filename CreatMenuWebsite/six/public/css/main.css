@@ -48,24 +48,24 @@ main {
 }
 .container {
   margin: 0 auto;
-  padding: 100px;
 }
 .content-of-main {
   background: blue;
   height: 300px;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .content-of-footer {
   height: 200px;
   background: red;
-
-    width: 70%;
+  width: 70%;
   margin: 0 auto;
 }
 .content-of {
   text-align: center;
+  padding: 40px;
+  margin-top: 20px;
 }
 
 
